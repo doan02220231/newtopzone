@@ -1,0 +1,196 @@
+footer{
+    width: 100%;
+    background: #101010;
+    position: relative;
+    .footer-chris_left
+    {
+        visibility: hidden;
+        height: 310px;
+        width: auto;
+        position: absolute;
+        left: 0;
+        top: 0;
+        z-index: 1;
+    }
+    .footer-chris_right
+    {    
+        position: absolute;
+        z-index: 1;
+        right: 0;
+        height: 340px;
+        bottom: 106px;
+    }
+    .foot
+    {
+        width: 100%;
+        max-width: 1200px;
+        min-width: 1024px;
+        margin: auto;
+        display: block;
+        padding-bottom: 10px;
+        position: relative;
+        z-index: 2;
+        .logo-foot
+        {
+            display: block;
+            overflow: hidden;
+            padding: 30px 0;
+            a:first-child{
+                padding: 0 10px 0 0;
+                border-right: 1px solid #3b3b3b;
+                margin-right: 10px;
+            }
+            a{
+                display: inline-block;
+                vertical-align: middle;
+                .topzone-logo {
+                    background-image: url(//cdn.tgdd.vn/mwgcart/topzone/images/icon-topzone.webp);
+                    background-repeat: no-repeat;
+                    display: inline-block;
+                    height: 30px;
+                    width: 30px;
+                    line-height: 30px;
+                    vertical-align: middle;
+                    background-size: 514px 226px;
+                    background-position: 0 0;
+                    width: 103px;
+                    height: 35px;
+                }
+                .topzone-autho
+                {
+                    background-image: url(//cdn.tgdd.vn/mwgcart/topzone/images/icon-topzone.webp);
+                    background-repeat: no-repeat;
+                    display: inline-block;
+                    height: 30px;
+                    width: 30px;
+                    line-height: 30px;
+                    vertical-align: middle;
+                    background-size: 514px 226px;
+                    background-image: url(//cdn.tgdd.vn/mwgcart/topzone/images/APR_logo.webp);
+                    width: 32px;
+                    height: 40px;
+                    background-size: 100%;
+                }
+            }
+        }
+        .list-foot {
+            display: flex;
+            justify-content: space-between;
+            align-items: stretch;
+            border-bottom: 1px solid #333;
+            padding: 0 0 30px;
+            li:first-child {
+                width: 30%;
+            }
+            li{
+                float: left;
+                width: 23%;
+                span{
+                    display: block;
+                    overflow: hidden;
+                    color: #fff;
+                    font-size: 15px;
+                    line-height: 20px;
+                    padding: 0 0 8px;
+                    font-weight: 500;
+                }
+                a{
+                    display: block;
+                    overflow: hidden;
+font-size: 13px;
+                    line-height: 18px;
+                    padding: 0 0 10px;
+                    color: #e5e5e5;
+                    b{
+                        font-weight: 400;
+                        color: #2997ff;
+                    }
+                }
+            }
+        }
+        .text-cpr {
+            display: inline-block;
+            overflow: hidden;
+            padding: 22px 0;
+            max-width: 60%;
+            p{
+                display: block;
+                overflow: hidden;
+                font-size: 11px;
+                line-height: 14px;
+                color: #666;
+            }
+        }
+        .certify {
+            display: inline-block;
+            float: right;
+            padding: 10px 0 0 10px;
+            a{
+                display: inline-block;
+                margin-left: 22px;
+                vertical-align: middle;
+            }
+        }
+    }
+    .footer__logo
+    {
+        background-color: #222;
+        padding: 15px 15px 5px;
+        text-align: center;
+        .footer__logo-hd
+        {
+            color: #757575;
+            font-size: 14px;
+            line-height: 21px;
+        }
+        .footer__logo-list
+        {
+            font-size: 0;
+            margin-top: 15px;
+            li{
+                display: inline-block;
+                margin: 0 5px 10px;
+                a{
+                    display: block;
+                    .iconlogo-thegioididong
+                    {
+                        background-position: -145px -100px ;
+                    }
+                    .iconlogo-dienmayxanh
+                    {
+                        background-position: 0 -150px;
+                    }
+                    .iconlogo-bachhoaxanh {
+                        background-position: 0 -100px;
+                    }
+                    .iconlogo-ankhang {
+                        background-position: -145px -284px;
+                    }
+                    .iconlogo-kids {
+                        background-position: -145px -380px;
+                    }
+                    .iconlogo-tantam {
+                        background-position: 0 -330px;
+                    }
+                    .iconlogo-4kfarm {
+                        background-position: -145px -330px;
+                    }
+                    .iconlogo-vieclam {
+                        background-position: 0 -378px;
+                    }
+                    i{
+                        background-image: url(//cdn.tgdd.vn/mwgcart/topzone/images/desktop/icon_logo@2x.webp);
+                        background-repeat: no-repeat;
+                        display: inline-block;
+                        height: 40px;
+                        width: 133px;
+                        line-height: 30px;
+                        vertical-align: middle;
+                        background-size: 300px 425px;
+                        
+                    }
+                }
+            }
+        }
+    }
+}
